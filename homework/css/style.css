@@ -1,0 +1,97 @@
+*{margin: 0;
+padding: 0;
+font-family: serif;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.block-wr{
+    width: 250px;
+    height: 350px;
+   border-radius: 5%;
+    background-color: rgb(12, 11, 11);
+    color: seashell;
+    font-size: 26px;
+    /* margin: 0 auto; */
+    overflow: auto;
+    padding: 5px;
+    margin-left: 10px;
+}
+.main-div{
+    width: 250px;
+    height: 350px;
+   border-radius: 5%;
+    background-color: rgb(12, 11, 11);
+    
+    /* margin: 0 auto; */
+  
+    padding: 5px;
+    
+}
+.buttons   {
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 50px;
+    height: 50px;
+ background-color: rgba(134, 127, 127, 0.863);
+ border-radius: 20px;
+ border: none;
+ margin: 3px;
+ color: rgb(243, 240, 240);
+ font-size: 26px;
+
+}
+
+.arifm{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 3px;
+}
+
+.label  {
+    /* width: 400px;
+    text-align: right;
+    display: flex;
+    justify-content: center; */
+    text-align: center;
+  margin-top: 60px;
+    height: 40px;
+    /* color: rgb(243, 240, 240); */
+    font-size: 40px;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 7px;
+
+}
+.red{
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    border:1px solid red;
+    width: 25px;
+    height: 25px;
+}
+.red1{
+    background-color: red;
+}
+
+.non{
+    display: none;
+}
+#m{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.arifm button,
+#equals,
+#clear
+{
+    background-color: rgb(235, 112, 12);
+}
